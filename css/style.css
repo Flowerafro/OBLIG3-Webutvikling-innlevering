@@ -30,6 +30,12 @@
     --color-purple-3: #ba45a5;
     --color-purple-4: #7b2d6d;
     --color-purple-5: #381531;
+    --color-green-1: #8bf3ec;
+    --color-green-2: #56dcd3;
+    --color-green-3: #23a9a0;
+    --color-green-4: #1a7f78;
+    --color-green-5: #115550;
+    --color-green-6: #051c1a;
 
     --fontHeader: 2.5rem;
     --fontsizeH1: 2rem;
@@ -99,7 +105,8 @@ nav .logo{
     font-weight: 600;
     font-stretch: 100%;
     font-size: var(--fontHeader);
-    color:#000;
+    color: var(--color-grayscale-4);
+    text-shadow: 0px 5px 5px 5px rgba(0, 0, 0, .9);
 }
 
  nav .nav-list {
@@ -121,7 +128,7 @@ nav .nav-list .fa-solid {
 }
 
 /* ------------------------------------------------------------------------- */
-/* --------------------------  MAIN  -------------------------------------- */
+/* --------------------------  M A I N - ALLE SIDER  -------------------------------------- */
 /* -------------------------------------------------------------------------- */
 
 main {
@@ -129,6 +136,16 @@ main {
     grid-row-end: 2;
     grid-column-start: 1;
     grid-column-end: 3;
+}
+
+.cat-header {
+    font-size: var(--fontHeader);
+    font-weight:600;
+
+    letter-spacing: 0.6rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
 }
 
 /* ----------------------------  I N D E X   ---------------------------------- */
@@ -149,6 +166,8 @@ main .bg-img {
     align-items: center;
 
 }
+
+/* Bildekreditering: Fotograf: Aus Leidenschaft Bildet er tatt av <a href="https://pixabay.com/no/users/domenik2212-11054730/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4687823">Domenik</a> "https://pixabay.com/no//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4687823">Pixabay*/
 
 
 main .bg-img .info {
@@ -306,6 +325,31 @@ main .bg-img .info .search input[type="submit"]{
     box-shadow: 0 .125em .5em rgba(0, 0, 0, .5);
 }
 
+/* ----------------------------  P R O D U K T S I D E   ---------------------------------- */
+
+/* ----------------------------  V A L G F R I  /  O M  O S S   ---------------------------------- */
+
+#header-color {
+    color: var(--color-green-5);
+}
+
+#omoss-image {
+    width: 100%;
+    height: auto;
+    background-color: var(--color-grayscale-1);
+    object-fit: cover;
+    object-position: center;
+    padding: 3rem 0rem 1rem 0rem;
+    margin: 1rem 0rem 1rem 0rem;
+}
+
+.omoss-container {
+    text-align: center;
+    font-weight: 200;
+    font-size: var(--fontsizeh5);
+    padding: 1rem 0rem 3rem 0rem;
+    margin: 0.2rem 0rem 1rem 0rem;
+}
 
 /* ------------------------------------------------------------------------- */
 /* -----------------------  F O O T E R   ---------------------------------- */
