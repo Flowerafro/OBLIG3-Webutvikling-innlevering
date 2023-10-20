@@ -25,6 +25,11 @@
     --color-pink-3: #f33f6c;
     --color-pink-4: #dd0e42;
     --color-pink-5: #60061d;
+    --color-purple-1: #e3b5db;
+    --color-purple-2: #d68fc9;
+    --color-purple-3: #ba45a5;
+    --color-purple-4: #7b2d6d;
+    --color-purple-5: #381531;
 
     --fontHeader: 2.5rem;
     --fontsizeH1: 2rem;
@@ -57,9 +62,10 @@ body {
 
     font-family: 'Nunito Sans', sans-serif;
 
-	margin:0;
+	min-height: 100vh;
+    margin:0;
 	padding:0;
-	background: var(--color-warm-0);
+	background: var(--color-grayscale-1);
 }
 /* ------------------------------------------------------------------------- */
 /* ---------------- H E A D E R / NAV-BAR   --------------------------------- */
@@ -72,10 +78,10 @@ header {
 }
 
 nav {
-    background-color: var(--color-warm-1);
+    background-color: var(--color-grayscale-1);
     box-shadow: 0 0 2em rgba(0, 0, 0, .1);
-    margin-bottom: 3rem;
-    padding: 2rem 0rem 2rem 0rem;
+    margin-bottom: 2rem;
+    padding: 1.5rem 0rem 1.5rem 0rem;
     font-weight: 500;
 
     display: flex;
@@ -86,6 +92,7 @@ nav .logo{
     display: flex;
     align-items: center;
 
+    margin-left: 5%;
     text-decoration: none;
     letter-spacing: 0.1rem;
     padding-left: 0.5rem;
@@ -107,9 +114,10 @@ nav .logo{
 }
 
 nav .nav-list .fa-solid {
-    color: var(--color-grayscale-1);
+    color: var(--color-warm-1);
     font-size: 1.5rem;
     padding: 0.6rem;
+    margin-right: 5%;
 }
 
 /* ------------------------------------------------------------------------- */
@@ -125,69 +133,82 @@ main {
 
 /* ----------------------------  I N D E X   ---------------------------------- */
 
-main .info {
+main .bg-img {
+    background-image: url(/IMG/sneaker-4687823_1280.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+    width: 100%;
+    min-height: 100vh;
+    padding: 3rem 0rem 3rem 0rem;
+    margin: 1rem 0rem 1rem 0rem;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+main .bg-img .info {
     width: 100%;
     height: auto;
     top: 50%;
     text-align: align;
-
-    /* 
-    position: absolute;
-    transform: translate(-50%);
-    */
 }
 
-main .info .head {
+main .bg-img .info .head {
     width: 100%;
     height: auto;
     text-align: center;
-    font-size: var(--fontsizeh2);
-    font-weight: 300;
-    color: var(--color-warm-4);
+    font-size: var(--fontHeader);
+    font-weight: 500;
+    color: var(--color-grayscale-1);
     text-shadow: 0px 5px 5px 5px rgba(0, 0, 0, .5);
-
-    /*
-    position: absolute;
-    */
 }
 
-main .info .head h1 {
+main .bg-img .info .head h1 {
+    margin-top: -2rem;
     letter-spacing: 0.2rem;
     text-transform: uppercase;
+    background-color: rgba(0, 0, 0, .4);
 }
 
-main .info .head h1 span {
-    color: var(--color-warm-5);
+main .bg-img .info .head h1 span {
+    color: var(--color-warm-1);
+    text-shadow: 0px 5px 5px 5px rgba(255, 255, 255, 0.5);
 }
 
-main .info .head p {
+main .bg-img .info .head p {
     width: 100%;
     height: auto;
-    margin-bottom: 0.5rem;
 
     text-align: center;
     font-size: var(--fontsizeh4);
-    font-weight: 400;
-    color: var(--color-warm-5);
-    text-shadow: 0px 5px 5px 5px rgba(0, 0, 0, .5);
+    font-weight: 500;
+    font-style: italic;
+    color: var(--color-warm-3);
+
+    background-color: rgba(0, 0, 0, .4);
 
 }
 
-main .info .search {
+main .bg-img .info .search {
     /* position: relative
     transform: translateX(-50%)*/
     width: 100%;
     height: 10rem;
-    background: var(--color-warm-0);
-    border: var(--color-warm-0) 0.5rem solid;
 
     display: flex;
     align-items: center;
     justify-content: center;
+
+    background-color: rgba(0, 0, 0, .4);
 }
 
 #search-input{
-    width: 70%;
+    max-width: 50%;
     height: 3.4rem;
     border-radius: 0.9rem 0rem 0rem 0.9rem;
 }
@@ -195,9 +216,17 @@ main .info .search {
     width: 15%;
     height: 3.4rem;
     border-radius: 0rem 0.9rem 0.9rem 0rem;
+    background:var(--color-grayscale-1) ;
+    color: var(--color-warm-2);
+    text-align: center;
+    text-decoration: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-main .info .search input[type="text"]{
+main .bg-img .info .search input[type="text"]{
     height: 50px;
     width: 98%;
     font-weight: 200;
@@ -208,11 +237,11 @@ main .info .search input[type="text"]{
     color: var(--color-warm-2);
 }
 
-main .info .search input[type="text"]:focus::placeholder {
+main .bg-img .info .search input[type="text"]:focus::placeholder {
     color: transparent;
   }
 
-main .info .search input[type="submit"]{
+main .bg-img .info .search input[type="submit"]{
     font-weight: 200;
     font-size: 1rem;
     padding: 0.1rem;
@@ -229,32 +258,42 @@ main .info .search input[type="submit"]{
     font-style: italic;
     font-family: 'Montserrat', sans-serif;
     color: var(--color-grayscale-6);
-    text-shadow: 0px 5px 5px 5px rgba(0, 0, 0, .5);
 }
 
-main .qs-container {
-    width: 100%;
+.qs-container {
+    max-width: 100%;
     height: auto;
-}
 
-main .qs-container .qs-content {
-    text-align: center;
-    font-size: var(--fontsizeh5);
-    font-weight: 400;
-    color: var(--color-warm-5);
-    text-shadow: 0px 5px 5px 5px rgba(0, 0, 0, .5);
-
-    padding: 1rem;
     display: flex;
-    justify-content: space-evenly;
     flex-wrap: wrap;
+    justify-content: center;
+
+    background-color: rgba(0, 0, 0, .4);
 }
 
-main .qs-container .qs-content p {
+.qs-content {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: var(--fontsizeh5);
+    font-weight: 500;
+
+    padding: 2rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.qs-container h1 {
     width: 100%;
     height: auto;
-    font-style: italic;
-    margin-bottom: 0.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    color: var(--color-grayscale-1);
+    font-size: var(--fontsizeh2);
+    padding: 2rem;
 }
 
 .qs-button {
@@ -278,10 +317,12 @@ footer {
     grid-column-start: 1;
     grid-column-end: 3;
 
-    background-color: var(--color-warm-5);
-    background-image: linear-gradient(var(--color-pink-1), var(--color-warm-4));
-    padding: 1.5rem;
-    margin-top: 10rem;
+    background-color: var(--color-grayscale-1);
+    background-image: linear-gradient(var(--color-grayscale-2), var(--color-grayscale-1));
+    box-shadow: 0 0 2em rgba(0, 0, 0, .1);
+    padding: 1rem;
+
+
 
     text-align: center;
     font-size: 0.7rem;
@@ -298,7 +339,7 @@ footer p {
 footer .service {
     list-style: none;
     letter-spacing: 0.1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 0.5rem;
     padding: 0.6rem;
     font-weight: 500;
 
@@ -309,20 +350,20 @@ footer .service {
 
 footer .service li a{
     text-decoration: none;
-    color: var(--color-grayscale-1);
+    color: var(--color-purple-3);
 }
 
 footer .service li a:visited{
     text-decoration: none;
-    color: var(--color-pink-5);
+    color: var(--color-purple-2);
 }
 
 footer .social-media {
     list-style: none;
     letter-spacing: 0.1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 0.5rem;
     padding: 0.6rem;
-    font-weight: 500;
+    font-weight: 400;
 
     display: flex;
     justify-content: space-evenly;
@@ -330,13 +371,13 @@ footer .social-media {
 
 footer .social-media .fa-brands{
     text-align: center;
-    color: var(--color-grayscale-1);
+    color: var(--color-warm-1);
     font-size: 1.5rem;
     padding: 0.6rem;
 }
 
 @media screen and (min-width: 600px){
-
+s
     footer .service li a:hover{
         text-decoration: none;
         color: var(--color-pink-4);
