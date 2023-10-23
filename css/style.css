@@ -656,8 +656,40 @@ footer .social-media .fa-brands{
     padding: 0.6rem;
 }
 
+/* ---------------------------------------------------------------------------------------------- */
+/* -------------------------------------- M E D I A  Q U E R I E S   ---------------------------------------- */
+/* ---------------------------------------------------------------------------------------------- */
+
+
 @media screen and (min-width: 600px){
-s
+    /*  g r i d */
+    body {
+        display: grid;
+        grid-template-columns: 1fr 60% 1fr;
+        grid-template-rows: 30% 1fr 20%;
+    }
+    /* h e a d er */
+    header {
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+    /* m a i n */
+    main  {
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    /* Produktside*/
+    .category {
+        display: flex;
+        flex-direction: row;
+    }
+
+    /* f o o t e r */
+    footer{
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
     footer .service li a:hover{
         text-decoration: none;
         color: var(--color-pink-4);
