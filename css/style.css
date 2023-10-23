@@ -156,6 +156,7 @@ main {
 
 main .bg-img {
     background-image: url(/IMG/sneaker-4687823_1280.jpg);
+    /*Link: https://pixabay.com/no/photos/sneaker-air-jordan-1-sko-joggesko-4687823/ Bildet er tatt av <a href="https://pixabay.com/no/users/domenik2212-11054730/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4687823">Domenik</a> fra <a href="https://pixabay.com/no//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4687823">Pixabay</a>*/
     background-size: cover;
     background-repeat: none;
     background-position: center;
@@ -170,9 +171,6 @@ main .bg-img {
     align-items: center;
 
 }
-
-/* Bildekreditering: Fotograf: Aus Leidenschaft Bildet er tatt av <a href="https://pixabay.com/no/users/domenik2212-11054730/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4687823">Domenik</a> "https://pixabay.com/no//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4687823">Pixabay*/
-
 
 main .bg-img .info {
     width: 100%;
@@ -501,16 +499,20 @@ main .bg-img .info .search input[type="submit"]{
 /* ------------------------ Kategori 1: bildelinker til høstmote------------------------ */
 #mote-1{
     background-image: url(/IMG/winter-boots-3867775_1280.jpg);
+    /* Link: https://pixabay.com/no/photos/st%C3%B8vler-sko-skinn-st%C3%B8vler-varm-3867775/ Bildet er tatt av <a href="https://pixabay.com/no/users/armennano-9097212/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3867775">armennano</a> fra <a href="https://pixabay.com/no//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3867775">Pixabay</a>*/
+
 }
 #mote-2 {
     background-image: url(/IMG/boots-1867379_1280.jpg);
 }
 #mote-3{
     background-image: url(/IMG/shoes-4026766_1280.jpg);
+    /* Link: https://pixabay.com/no/photos/sko-sneaker-mote-fritid-sommer-4026766/ Bildet er tatt av <a href="https://pixabay.com/no/users/jhathome-5696170/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4026766">jhathome</a> fra <a href="https://pixabay.com/no//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4026766">Pixabay</a>*/
 }
 /* ------------------------ Kategori 2: bildelinker til casual------------------------ */
 #casual-1 {
     background-image: url(/IMG/footwear-5408643_1280.jpg);
+    /* Link: https://pixabay.com/no/photos/fott%C3%B8y-joggesko-mote-f%C3%B8tter-sko-5408643/ Bildet er tatt av <a href="https://pixabay.com/no/photos/fott%C3%B8y-joggesko-mote-f%C3%B8tter-sko-5408643/">Joseph Mucira</a> fra <a href="https://pixabay.com/no//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5408643">Pixabay</a>*/
 }
 
 #casual-2 {
@@ -534,12 +536,15 @@ main .bg-img .info .search input[type="submit"]{
 
 #fancy-1 {
     background-image: url(/IMG/fashion-601565_1280.jpg);
+    /* Link: https://pixabay.com/no/photos/mote-sko-l%C3%A6r-fott%C3%B8y-stil-menn-601565/ Bildet er tatt av <a href="https://pixabay.com/no/users/stokpic-692575/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=601565">stokpic</a> fra <a href="https://pixabay.com/no//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=601565">Pixabay</a>*/
 }
 #fancy-2 {
     background-image: url(/IMG/black-shoes-2752226_1280.jpg);
+    /*Bildet er tatt av <a href="https://pixabay.com/no/users/xaytham-6450391/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2752226">Haytham Marzouk</a> fra <a href="https://pixabay.com/no//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2752226">Pixabay</a>*/ 
 }
 #fancy-3 {
     background-image: url(/IMG/chelsea-boot-for-men-5851885_1280.jpg);
+    /* Link: https://pixabay.com/no/photos/chelsea-st%C3%B8vel-for-menn-5851885/ Bildet er tatt av <a href="https://pixabay.com/no/users/smithnoah373-19530830/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5851885">Noah Smith</a> fra <a href="https://pixabay.com/no//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5851885">Pixabay</a>*/
 }
 
 
