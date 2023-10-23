@@ -348,6 +348,7 @@ main .bg-img .info .search input[type="submit"]{
 
 .news-container {
     background-image: url(/IMG/sneakers-5578127_1280.jpg);
+    /*Link: https://pixabay.com/no/photos/joggesko-sko-fott%C3%B8y-air-jordan-3-5578127/ Bildet er tatt av <a href="https://pixabay.com/no/users/marzuk-17536011/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5578127">Mohamed Marzuk Mohamed Ansari</a> fra <a href="https://pixabay.com/no//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5578127">Pixabay</a> */ 
     background-size: cover;
     background-repeat: none;
     background-position: center;
@@ -469,6 +470,7 @@ main .bg-img .info .search input[type="submit"]{
     margin: 10px;
 
     background-image: url(/IMG/feet-1840619_1280.jpg);
+    /*Link: https://pixabay.com/no/photos/f%C3%B8tter-fott%C3%B8y-nike-sko-joggesko-1840619/ Bildet er tatt av <a href="https://pixabay.com/no/users/pexels-2286921/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1840619">Pexels</a> fra <a href="https://pixabay.com/no//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1840619">Pixabay</a> */
     background-size: cover;
     background-repeat: none;
     background-position: center;
@@ -527,10 +529,12 @@ main .bg-img .info .search input[type="submit"]{
 }
 /* ------------------------ Kategori 3: bildelinker til atletisk------------------------ */
 #fri-1{
-    background-image: url(/IMG/shoe-629644_1280.jpg);
+    background-image: url(/IMG/walking-boots-3832373_1280.jpg);
+    /*Link: https://pixabay.com/no/photos/g%C3%A5sko-st%C3%B8vler-l%C3%A6r-fjellsko-3832373/  Bildet er tatt av <a href="https://pixabay.com/no/users/alexas_fotos-686414/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3832373">Alexa</a> fra <a href="https://pixabay.com/no//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3832373">Pixabay</a>*/
 }
 #fri-2 {
-    background-image: url(/IMG/shoe-629645_1280.jpg);
+    background-image: url(/IMG/walking-boots-3054634_1280.jpg);
+    /*Link: https://pixabay.com/no/photos/g%C3%A5sko-st%C3%B8vler-l%C3%A6r-fjellsko-3054634/ Bildet er tatt av <a href="https://pixabay.com/no/users/alexas_fotos-686414/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3054634">Alexa</a> fra <a href="https://pixabay.com/no//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3054634">Pixabay</a>*/
 }
 #fri-3 {
     background-image: url(/IMG/walking-boots-220499_1280.jpg);
@@ -544,7 +548,7 @@ main .bg-img .info .search input[type="submit"]{
 }
 #fancy-2 {
     background-image: url(/IMG/black-shoes-2752226_1280.jpg);
-    /*Bildet er tatt av <a href="https://pixabay.com/no/users/xaytham-6450391/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2752226">Haytham Marzouk</a> fra <a href="https://pixabay.com/no//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2752226">Pixabay</a>*/ 
+    /*Link: https://pixabay.com/no/photos/svarte-sko-l%C3%A6rsko-brukte-sko-2752226/ Bildet er tatt av <a href="https://pixabay.com/no/users/xaytham-6450391/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2752226">Haytham Marzouk</a> fra <a href="https://pixabay.com/no//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2752226">Pixabay</a>*/ 
 }
 #fancy-3 {
     background-image: url(/IMG/chelsea-boot-for-men-5851885_1280.jpg);
