@@ -107,22 +107,27 @@ nav .logo{
    
     font-size: var(--fontHeader);
     color: var(--color-warm-5);
-    text-shadow: 0px 5px 5px 5px rgba(0, 0, 0, .9);
 }
 
  nav .nav-list {
-    padding-right: 0.5rem;
     margin-right: 5%;
-    font-size: 1rem;
-    text-transform: uppercase;
-    text-decoration: none;
     list-style: none;
 
     display: flex;
-    align-items: center;
+    align-items: flex-end;
+    flex-direction: column-reverse;
 }
 
-nav .nav-list .fa-solid {
+nav .nav-list a {
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1rem;
+    padding: 0.5rem;
+    color: var(--color-warm-3);
+}
+
+.fa-solid {
     color: var(--color-warm-1);
     font-size: 1.5rem;
     padding: 0.6rem;
@@ -157,7 +162,6 @@ main {
     font-weight: 600;
     letter-spacing: 0.3rem;
     color: var(--color-warm-3);
-    text-shadow: 0px 5px 5px 5px rgba(0, 0, 0, .5);
     padding: 1rem;
  }
 
@@ -170,7 +174,7 @@ main .bg-img {
     background-image: url(/IMG/sneaker-4687823_1280.jpg);
     /*Link: https://pixabay.com/no/photos/sneaker-air-jordan-1-sko-joggesko-4687823/ Bildet er tatt av <a href="https://pixabay.com/no/users/domenik2212-11054730/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4687823">Domenik</a> fra <a href="https://pixabay.com/no//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4687823">Pixabay</a>*/
     background-size: cover;
-    background-repeat: none;
+    background-repeat: no-repeat;
     background-position: center;
     width: 100%;
     min-height: 100vh;
@@ -188,7 +192,7 @@ main .bg-img .info {
     width: 100%;
     height: auto;
     top: 50%;
-    text-align: align;
+    text-align: center;
 }
 
 main .bg-img .info .head {
@@ -198,7 +202,6 @@ main .bg-img .info .head {
     font-size: var(--fontHeader);
     font-weight: 500;
     color: var(--color-grayscale-1);
-    text-shadow: 0px 5px 5px 5px rgba(0, 0, 0, .5);
 }
 
 main .bg-img .info .head h1 {
@@ -210,7 +213,6 @@ main .bg-img .info .head h1 {
 
 main .bg-img .info .head h1 span {
     color: var(--color-warm-1);
-    text-shadow: 0px 5px 5px 5px rgba(255, 255, 255, 0.5);
 }
 
 main .bg-img .info .head p {
@@ -362,7 +364,7 @@ main .bg-img .info .search input[type="submit"]{
     background-image: url(/IMG/sneakers-5578127_1280.jpg);
     /*Link: https://pixabay.com/no/photos/joggesko-sko-fott%C3%B8y-air-jordan-3-5578127/ Bildet er tatt av <a href="https://pixabay.com/no/users/marzuk-17536011/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5578127">Mohamed Marzuk Mohamed Ansari</a> fra <a href="https://pixabay.com/no//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5578127">Pixabay</a> */ 
     background-size: cover;
-    background-repeat: none;
+    background-repeat: no-repeat;
     background-position: center;
     width: 100%;
     height: 300px;
@@ -423,7 +425,7 @@ main .bg-img .info .search input[type="submit"]{
     box-shadow: 0 .125em .5em var(--color-grayscale-6);
     
     background-size: cover;
-    background-repeat: none;
+    background-repeat: no-repeat;
     background-position: center;
     width: 300px;
     height: fit-content;
@@ -480,7 +482,7 @@ main .bg-img .info .search input[type="submit"]{
     background-image: url(/IMG/feet-1840619_1280.jpg);
     /*Link: https://pixabay.com/no/photos/f%C3%B8tter-fott%C3%B8y-nike-sko-joggesko-1840619/ Bildet er tatt av <a href="https://pixabay.com/no/users/pexels-2286921/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1840619">Pexels</a> fra <a href="https://pixabay.com/no//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1840619">Pixabay</a> */
     background-size: cover;
-    background-repeat: none;
+    background-repeat: no-repeat;
     background-position: center;
     width: 95%;
     height: 300px;
@@ -688,23 +690,39 @@ footer .social-media .fa-brands{
 
     nav {
         margin-bottom: 0.5rem;
-        padding: 1.5rem 0rem 0.5rem 0rem;
+        padding: 1.5rem;
     }
 
     nav .logo {
-        margin-left: 12%;
+        margin-left: 10%;
         letter-spacing: 1rem;
-    }
-    nav .logo:hover {
-        margin-left: 12%;
-        color: var(--color-purple-4);
     }
 
     nav .nav-list {
-        margin-right: 12%;
+        padding: 1.2rem;
+        margin-right: 5%;
+        list-style: none;
+    
+        display: flex;
+        align-items: flex-end;
+        flex-direction: row;
     }
 
-    nav .nav-list .fa-solid {
+    nav .nav-list a {
+        padding: 1rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-decoration: none;
+        text-align: center;
+        font-size: 1.5rem;
+        color: var(--color-warm-3);
+    }
+
+    nav .nav-list a:hover {
+        color: var(--color-warm-4);
+    }
+    
+    .fa-solid {
         color: var(--color-warm-1);
         font-size: 2rem;
         padding: 1rem;
@@ -853,25 +871,7 @@ footer .social-media .fa-brands{
         margin-left: auto;
         margin-right: auto;
     }
-
-     /* Tilbakeknapp til produkter*/
-     .fa-backward {
-        margin-left: 12%;
-        text-decoration: none;
-        font-size: 0.8rem;
-        font-weight: 600;
-        letter-spacing: 0.3rem;
-        color: var(--color-warm-3);
-        text-shadow: 0px 5px 5px 5px rgba(0, 0, 0, .5);
-        padding: 1rem;
-     }
-
-     .fa-backward:hover {
-        color: var(--color-warm-4);
-     }
     
-
-
     /* f o o t e r */
     footer{
         grid-column-start: 1;
