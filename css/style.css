@@ -104,7 +104,7 @@ nav .logo{
     letter-spacing: 0.1rem;
     padding-left: 0.5rem;
     font-weight: 600;
-    font-stretch: 100%;
+   
     font-size: var(--fontHeader);
     color: var(--color-warm-5);
     text-shadow: 0px 5px 5px 5px rgba(0, 0, 0, .9);
@@ -408,10 +408,6 @@ main .bg-img .info .search input[type="submit"]{
     padding: 10px;
 }
 
-.category-header-color {
-    color: var(--color-warm-3);
-}
-
 .category {
    display: flex; 
    justify-content: space-evenly;
@@ -672,7 +668,7 @@ footer .social-media .fa-brands{
     body {
         display: grid;
         grid-template-columns: 1fr 60% 1fr;
-        grid-template-rows: 30% 1fr 20%;
+        grid-template-rows: 1fr 80% 1fr;
     }
 
       /* a l l e  s i d e r -store bilder */
@@ -703,6 +699,14 @@ footer .social-media .fa-brands{
     header {
         grid-column-start: 1;
         grid-column-end: 4;
+        grid-row-start: 1;
+
+        border: red 2px solid;
+    }
+
+    nav {
+        margin-bottom: 1rem;
+        padding: 1.5rem 0rem 1.5rem 0rem;
     }
 
     nav .logo {
@@ -723,6 +727,7 @@ footer .social-media .fa-brands{
         font-size: 2rem;
         padding: 1rem;
     }
+
     /* m a i n */
     main  {
         grid-column-start: 1;
