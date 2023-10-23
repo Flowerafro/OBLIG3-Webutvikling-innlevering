@@ -37,6 +37,7 @@
     --color-green-5: #115550;
     --color-green-6: #051c1a;
 
+
     --fontHeader: 2.5rem;
     --fontsizeH1: 2rem;
     --fontsizeh2: 1.3rem;
@@ -105,7 +106,7 @@ nav .logo{
     font-weight: 600;
     font-stretch: 100%;
     font-size: var(--fontHeader);
-    color: var(--color-grayscale-4);
+    color: var(--color-warm-5);
     text-shadow: 0px 5px 5px 5px rgba(0, 0, 0, .9);
 }
 
@@ -330,7 +331,7 @@ main .bg-img .info .search input[type="submit"]{
 /* ----------------------------  V A L G F R I  /  O M  O S S   ---------------------------------- */
 
 #header-color {
-    color: var(--color-green-5);
+    color: var(--color-warm-3);
 }
 
 #omoss-image {
@@ -394,12 +395,12 @@ footer .service {
 
 footer .service li a{
     text-decoration: none;
-    color: var(--color-purple-3);
+    color: var(--color-pink-2);
 }
 
 footer .service li a:visited{
     text-decoration: none;
-    color: var(--color-purple-2);
+    color: var(--color-pink-4);
 }
 
 footer .social-media {
