@@ -584,6 +584,10 @@ main .bg-img .info .search input[type="submit"]{
     margin: 0.2rem 0rem 1rem 0rem;
 }
 
+h2 {
+   color: var(--color-warm-4); 
+}
+
 /* ---------------------------------------------------------------------------------------------- */
 /* --------------------------------------  F O O T E R   ---------------------------------------- */
 /* ---------------------------------------------------------------------------------------------- */
@@ -600,19 +604,11 @@ footer {
     box-shadow: 0 0 2em rgba(0, 0, 0, .1);
     padding: 1rem;
 
-
-
     text-align: center;
     font-size: 0.7rem;
     text-transform: uppercase;
     text-decoration: none;
     list-style: none;
-}
-
-footer p {
-    font-weight: 700;
-    font-size: 1rem;
-    letter-spacing: 0.1rem;
 }
 
 footer .service {
@@ -680,14 +676,14 @@ footer .social-media .fa-brands{
     }
 
      /* Produktside - nyhet*/
-     .section-container-1 {
+     .section-container-1, .section-container-2 {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
      }
 
-     .news-container {
+     .news-container, .trendy-container  {
         width: 70%;
         height: 500px;
      }
@@ -699,12 +695,50 @@ footer .social-media .fa-brands{
         justify-content: center;
         align-items: center;
     }
+    .category-items {
+        width: 600px;
+        height: 500px;
+    }
+
+    .category-button {
+        width: 600px;
+        height: fit-content;
+    }
+
+    /* o m  o s s */
+
+    .omoss-container{
+    font-weight: 200;
+    font-size: var(--fontsizeh3);
+    padding: 1rem;
+    }
 
     /* f o o t e r */
     footer{
         grid-column-start: 1;
         grid-column-end: 4;
+
+        display: flex;
+        flex-direction: column;
+
+        text-align: center;
+        font-size: 1rem;
+
+        border: red solid 2px;
     }
+
+    .service {
+        display: flex;
+        flex-direction: row; 
+
+        border: blue solid 2px;
+    }
+
+    .fa-brands {
+        display: flex;
+        flex-direction: row; 
+    }
+
     footer .service li a:hover{
         text-decoration: none;
         color: var(--color-pink-4);
@@ -713,7 +747,7 @@ footer .social-media .fa-brands{
     footer .social-media .fa-brands:hover{
         text-align: center;
         color: var(--color-pink-4);
-        font-size: 1.8rem;
+        font-size: 2rem;
         padding: 0.6rem;
     }
 }
