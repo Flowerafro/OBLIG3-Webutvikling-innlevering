@@ -668,7 +668,7 @@ footer .social-media .fa-brands{
     body {
         display: grid;
         grid-template-columns: 1fr 60% 1fr;
-        grid-template-rows: 1fr 80% 1fr;
+        grid-template-rows: 1fr 90% 1fr;
     }
 
       /* a l l e  s i d e r -store bilder */
@@ -678,35 +678,17 @@ footer .social-media .fa-brands{
         height: 500px;
      }
 
-     /* Tilbakeknapp til produkter*/
-     .fa-backward {
-        margin-left: 12%;
-        text-decoration: none;
-        font-size: 0.8rem;
-        font-weight: 600;
-        letter-spacing: 0.3rem;
-        color: var(--color-warm-3);
-        text-shadow: 0px 5px 5px 5px rgba(0, 0, 0, .5);
-        padding: 1rem;
-     }
-
-     .fa-backward:hover {
-        color: var(--color-warm-4);
-     }
-    
-
     /* h e a d er */
     header {
         grid-column-start: 1;
         grid-column-end: 4;
         grid-row-start: 1;
-
-        border: red 2px solid;
+        grid-row-end: 1;
     }
 
     nav {
-        margin-bottom: 1rem;
-        padding: 1.5rem 0rem 1.5rem 0rem;
+        margin-bottom: 0.5rem;
+        padding: 1.5rem 0rem 0.5rem 0rem;
     }
 
     nav .logo {
@@ -732,6 +714,8 @@ footer .social-media .fa-brands{
     main  {
         grid-column-start: 1;
         grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 2;
     }
 
      /* index */
@@ -870,11 +854,30 @@ footer .social-media .fa-brands{
         margin-right: auto;
     }
 
+     /* Tilbakeknapp til produkter*/
+     .fa-backward {
+        margin-left: 12%;
+        text-decoration: none;
+        font-size: 0.8rem;
+        font-weight: 600;
+        letter-spacing: 0.3rem;
+        color: var(--color-warm-3);
+        text-shadow: 0px 5px 5px 5px rgba(0, 0, 0, .5);
+        padding: 1rem;
+     }
+
+     .fa-backward:hover {
+        color: var(--color-warm-4);
+     }
+    
+
 
     /* f o o t e r */
     footer{
         grid-column-start: 1;
         grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 3;
 
         display: flex;
         flex-direction: column;
