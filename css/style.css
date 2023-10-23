@@ -504,6 +504,7 @@ main .bg-img .info .search input[type="submit"]{
 }
 #mote-2 {
     background-image: url(/IMG/boots-1867379_1280.jpg);
+    /*Link: https://pixabay.com/no/photos/st%C3%B8vler-pike-fotturer-l%C3%A6r-st%C3%B8vler-1867379/  Bildet er tatt av <a href="https://pixabay.com/no/users/pexels-2286921/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1867379">Pexels</a> fra <a href="https://pixabay.com/no//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1867379">Pixabay</a>*/
 }
 #mote-3{
     background-image: url(/IMG/shoes-4026766_1280.jpg);
@@ -517,10 +518,12 @@ main .bg-img .info .search input[type="submit"]{
 
 #casual-2 {
     background-image: url(/IMG/jordan-4657349_1280.jpg);
+    /* Link: https://pixabay.com/no/photos/jordan-sko-nike-sport-atlet-4657349/ Bildet er tatt av <a href="https://pixabay.com/no/users/megashock-6587469/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4657349">megashock</a> fra <a href="https://pixabay.com/no//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4657349">Pixabay</a>*/
 }
 
 #casual-3 {
     background-image: url(/IMG/nike-5128118_1280.jpg);
+    /* Link: https://pixabay.com/no/photos/nike-sportsko-sneaker-joggesko-5128118/ Bildet er tatt av <a href="https://pixabay.com/no/users/grailify-15961668/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5128118">grailify</a> fra <a href="https://pixabay.com/no//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5128118">Pixabay</a> */ 
 }
 /* ------------------------ Kategori 3: bildelinker til atletisk------------------------ */
 #fri-1{
@@ -530,7 +533,8 @@ main .bg-img .info .search input[type="submit"]{
     background-image: url(/IMG/shoe-629645_1280.jpg);
 }
 #fri-3 {
-    background-image: url(/IMG/shoes-584850_1280.jpg);
+    background-image: url(/IMG/walking-boots-220499_1280.jpg);
+    /*Link: https://pixabay.com/no/photos/g%C3%A5ing-st%C3%B8vler-fjellst%C3%B8vler-sko-220499/ Bildet er tatt av <a href="https://pixabay.com/no/users/no-longer-here-19203/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=220499">No-longer-here</a> fra <a href="https://pixabay.com/no//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=220499">Pixabay</a>*/
 }
 /* ------------------------ Kategori 4: bildelinker til fancy------------------------ */
 
