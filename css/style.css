@@ -560,8 +560,6 @@ main .bg-img .info .search input[type="submit"]{
 /* ----------------------------  V A L G F R I  /  O M  O S S  ---------------------------------- */
 /* ---------------------------------------------------------------------------------------------- */
 
-
-
 #header-color-1 {
     color: var(--color-warm-3);
 }
@@ -658,12 +656,20 @@ footer .social-media .fa-brands{
 
 
 @media screen and (min-width: 600px){
-    /*  g r i d */
+    /*  a l l e  s i d e r - grid */
     body {
         display: grid;
         grid-template-columns: 1fr 60% 1fr;
         grid-template-rows: 30% 1fr 20%;
     }
+
+      /* a l l e  s i d e r -store bilder */
+
+      .news-container, .trendy-container  {
+        width: 70%;
+        height: 500px;
+     }
+
     /* h e a d er */
     header {
         grid-column-start: 1;
@@ -715,7 +721,7 @@ footer .social-media .fa-brands{
         align-items: center;
     }
 
-    #serach-submit:hover {
+    #search-submit:hover {
         background:var(--color-warm-2) ;
         color: var(--color-grayscale-1);
     }
@@ -746,10 +752,6 @@ footer .social-media .fa-brands{
         align-items: center;
      }
 
-     .news-container, .trendy-container  {
-        width: 70%;
-        height: 500px;
-     }
 
      .news-button {
         width: 15rem;
@@ -817,6 +819,19 @@ footer .social-media .fa-brands{
     font-size: var(--fontsizeh3);
     padding: 1rem;
     }
+
+    #omoss-image {
+        width: 80%;
+        height: auto;
+        background-color: var(--color-grayscale-1);
+        object-fit: cover;
+        object-position: center;
+        left: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 
     /* f o o t e r */
     footer{
