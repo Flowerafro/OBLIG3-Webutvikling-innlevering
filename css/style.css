@@ -87,7 +87,7 @@ header {
 nav {
     background-color: var(--color-grayscale-1);
     box-shadow: 0 0 2em rgba(0, 0, 0, .1);
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     padding: 1.5rem 0rem 1.5rem 0rem;
     font-weight: 500;
 
@@ -148,6 +148,18 @@ main {
     text-align: center;
     padding: 10px;
 }
+
+/* Tilbakeknapp */
+.fa-backward {
+    margin-left: 5%;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.3rem;
+    color: var(--color-warm-3);
+    text-shadow: 0px 5px 5px 5px rgba(0, 0, 0, .5);
+    padding: 1rem;
+ }
 
 /* ---------------------------------------------------------------------------------------------- */
 /* ----------------------------  I N D E X  /  F O R S I D E  ----------------------------------- */
@@ -670,6 +682,23 @@ footer .social-media .fa-brands{
         height: 500px;
      }
 
+     /* Tilbakeknapp til produkter*/
+     .fa-backward {
+        margin-left: 12%;
+        text-decoration: none;
+        font-size: 0.8rem;
+        font-weight: 600;
+        letter-spacing: 0.3rem;
+        color: var(--color-warm-3);
+        text-shadow: 0px 5px 5px 5px rgba(0, 0, 0, .5);
+        padding: 1rem;
+     }
+
+     .fa-backward:hover {
+        color: var(--color-warm-4);
+     }
+    
+
     /* h e a d er */
     header {
         grid-column-start: 1;
@@ -815,9 +844,13 @@ footer .social-media .fa-brands{
     /* o m  o s s */
 
     .omoss-container{
-    font-weight: 200;
-    font-size: var(--fontsizeh3);
-    padding: 1rem;
+        width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        font-weight: 200;
+        font-size: var(--fontsizeh3);
+        padding: 1rem;
     }
 
     #omoss-image {
@@ -852,7 +885,7 @@ footer .social-media .fa-brands{
         font-weight: 600;
     }
 
-    footer .service li a:hover{
+    .service li a:hover{
         text-decoration: none;
         color: var(--color-purple-4);
         letter-spacing: 0.5rem;
