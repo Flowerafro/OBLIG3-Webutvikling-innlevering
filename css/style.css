@@ -368,7 +368,7 @@ main .bg-img .info .search input[type="submit"]{
     margin-bottom: 10px;
     border-radius: 15px;
 
-    color: var(--color-warm-6);
+    color: var(--color-warm-4);
     font-size: 0.8rem;
     font-weight: 800;
     letter-spacing: 0.1rem;
@@ -482,7 +482,7 @@ main .bg-img .info .search input[type="submit"]{
     align-items: flex-end;
 }
 
-#trendy-button {
+.trendy-button {
     background-color: var(--color-grayscale-1);
     color: var(--color-warm-5);
     font-size: 1rem;
@@ -675,7 +675,7 @@ footer .social-media .fa-brands{
         grid-column-end: 4;
     }
 
-     /* Produktside - nyhet*/
+     /* Produktside - nyhet */
      .section-container-1, .section-container-2 {
         display: flex;
         flex-direction: column;
@@ -687,6 +687,23 @@ footer .social-media .fa-brands{
         width: 70%;
         height: 500px;
      }
+
+     .news-button {
+        width: 15rem;
+        height: 3.2rem;
+        padding: 0.8rem;
+        margin-bottom: 10px;
+        border-radius: 15px;
+        
+        text-decoration: none;
+        letter-spacing: 0.1rem;
+        font-size: 1.2rem;
+     }
+
+     .news-button:hover {
+        color: var(--color-warm-3);
+        letter-spacing: 0.2rem;
+    }
     /* Produktside - kategorier*/
 
     .category {
@@ -705,6 +722,31 @@ footer .social-media .fa-brands{
         height: fit-content;
     }
 
+    .category-button:hover {
+        text-decoration: none;
+        letter-spacing: 0.1rem;
+        background-color: var(--color-warm-3);
+    }
+
+    /*  produktside - trendy*/
+
+    .trendy-button { 
+        width: 15rem;
+        height: 3.2rem;
+        padding: 0.8rem;
+        margin-bottom: 10px;
+        border-radius: 15px;
+        
+        text-decoration: none;
+        letter-spacing: 0.1rem;
+        font-size: 1.2rem;
+    }
+
+    .trendy-button:hover {
+        color: var(--color-warm-3);
+        letter-spacing: 0.2rem;
+    }
+
     /* o m  o s s */
 
     .omoss-container{
@@ -720,23 +762,10 @@ footer .social-media .fa-brands{
 
         display: flex;
         flex-direction: column;
+        justify-content: space-evenly;
 
         text-align: center;
         font-size: 1rem;
-
-        border: red solid 2px;
-    }
-
-    .service {
-        display: flex;
-        flex-direction: row; 
-
-        border: blue solid 2px;
-    }
-
-    .fa-brands {
-        display: flex;
-        flex-direction: row; 
     }
 
     footer .service li a:hover{
