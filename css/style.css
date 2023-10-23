@@ -112,6 +112,7 @@ nav .logo{
 
  nav .nav-list {
     padding-right: 0.5rem;
+    margin-right: 5%;
     font-size: 1rem;
     text-transform: uppercase;
     text-decoration: none;
@@ -125,7 +126,6 @@ nav .nav-list .fa-solid {
     color: var(--color-warm-1);
     font-size: 1.5rem;
     padding: 0.6rem;
-    margin-right: 5%;
 }
 
 /* ----------------------------------------------------------------------------------------- */
@@ -314,7 +314,7 @@ main .bg-img .info .search input[type="submit"]{
     text-align: center;
     color: var(--color-grayscale-1);
     font-size: var(--fontsizeh2);
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .qs-button {
@@ -600,7 +600,7 @@ footer {
     grid-column-end: 3;
 
     background-color: var(--color-grayscale-1);
-    background-image: linear-gradient(var(--color-grayscale-1), var(--color-warm-0));
+    background-image: linear-gradient(var(--color-grayscale-1), var(--color-purple-1));
     box-shadow: 0 0 2em rgba(0, 0, 0, .1);
     padding: 1rem;
 
@@ -631,7 +631,7 @@ footer .service li a{
 
 footer .service li a:visited{
     text-decoration: none;
-    color: var(--color-purple-4);
+    color: var(--color-purple-2);
 }
 
 footer .social-media {
@@ -669,11 +669,74 @@ footer .social-media .fa-brands{
         grid-column-start: 1;
         grid-column-end: 4;
     }
+
+    nav .logo {
+        margin-left: 12%;
+        letter-spacing: 1rem;
+    }
+    nav .logo:hover {
+        margin-left: 12%;
+        color: var(--color-purple-4);
+    }
+
+    nav .nav-list {
+        margin-right: 12%;
+    }
+
+    nav .nav-list .fa-solid {
+        color: var(--color-warm-1);
+        font-size: 2rem;
+        padding: 1rem;
+    }
     /* m a i n */
     main  {
         grid-column-start: 1;
         grid-column-end: 4;
     }
+
+     /* index */
+
+     #search-input{
+        max-width: 50%;
+        height: 4rem;
+        border-radius: 0.9rem 0rem 0rem 0.9rem;
+    }
+     #search-submit{
+        width: 18%;
+        height: 4rem;
+        border-radius: 0rem 0.9rem 0.9rem 0rem;
+        background:var(--color-grayscale-1) ;
+        color: var(--color-warm-2);
+        text-align: center;
+        text-decoration: none;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #serach-submit:hover {
+        background:var(--color-warm-2) ;
+        color: var(--color-grayscale-1);
+    }
+     
+     ::placeholder {
+        font-size: 1.1rem;
+        font-weight: 400;
+        text-align: center;
+    }
+
+     .qs-button {
+        margin: 2.1rem;
+        padding: 1.2rem;
+        text-decoration: none;
+        letter-spacing: 0.2rem;
+        font-weight: 500;
+     }
+
+     .qs-button:hover {
+        background-color: var(--color-pink-3);
+     }
 
      /* Produktside - nyhet */
      .section-container-1, .section-container-2 {
@@ -768,15 +831,26 @@ footer .social-media .fa-brands{
         font-size: 1rem;
     }
 
+    footer .service {
+        font-size: 1.2rem;
+        letter-spacing: 0.2rem;
+        font-weight: 600;
+    }
+
     footer .service li a:hover{
         text-decoration: none;
-        color: var(--color-pink-4);
+        color: var(--color-purple-4);
         letter-spacing: 0.5rem;
     }
     footer .social-media .fa-brands:hover{
         text-align: center;
-        color: var(--color-pink-4);
+        color: var(--color-purple-4);
         font-size: 2rem;
         padding: 0.6rem;
+    }
+
+    footer .service li a:visited{
+        text-decoration: none;
+        color: var(--color-purple-5);
     }
 }
